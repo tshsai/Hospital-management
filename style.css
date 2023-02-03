@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgb(249, 9, 9);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+            -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 9%;
+    z-index: 12000;
+    background: rgb(2, 2, 2); 
+    margin-bottom: 100px;   
+             
+}
+
+.header .logo {
+    font-weight: bolder;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.header .logo span {
+    color: #f00;
+}
+
+.header .navbar a {
+    display: inline-block;
+    padding: 1.5rem 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+}
+
+.header .navbar a:hover {
+    background: linear-gradient(to right,blue,pink);
+    color: rgb(206, 251, 4);
+}
+
+
+
+.doctors{
+    text-align: center;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 60px;
+}
+
+.doctors select{
+    background-color: brown;
+    height: 40px;
+    width: 120px;
+    color: white;
+    border-radius: 5px;
+    
+}
+.doctors select:hover{
+    background-color: blue;
+    color: black;
+
+}
+
+.table table{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    border: 1px solid white;
+
+}
+.table table th{
+    margin:10px;
+    padding: 10px;
+    font-size: 2rem;
+    
+    color: green;
+}
+.table table td{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.refresh{
+    background-color: green;
+    color: white;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+}
+.refresh:hover{
+    background-color: aqua;
+    color: black;
+}
+.select{
+    background-color: green;
+    color: white;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+}
+.select:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.hospital_table{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.hospital_table table{
+    text-align: center;
+    width: auto;
+    color: white;
+    border:1px solid green;
+}
+.hosp{
+    text-align: center;
+    color: white;
+}
+.search{
+    margin-top: 80px;
+   text-align: center;
+   
+}
+.hospital_table th{
+    text-align: center;
+    font-size: 2rem;
+    color: green;
+}
+.hospital_table td{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.hospital_table{
+    padding: 5%;
+}
+.hospital_table table{
+    text-align: center;
+    border:1px solid #fff;
+    border-collapse: separate;
+    width: 100%;
+    
+}
+#search{
+    height: 30px;
+    border-radius: 10px;
+    background-color: #706b6b;
+}
+#search:hover{
+    border: 1px solid white;
+}
+.medicines{
+    margin-top: 80px;
+}
+.card{
+    height: auto;
+    width: fit-content;
+    padding: 2%;
+    color: white;
+    background-color: rgb(165, 162, 161);
+    box-shadow: 0 4px 8px 0 rgba(236, 231, 231, 0.2);
+    border-radius: 10px;
+  transition: 0.3s;
+  margin-left: 20px;
+  
+}
+.card h1{
+    color: black;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(228, 6, 6, 0.936);
+  }
+.card img{
+    width: 200px;
+    height: 200px;
+    
+}
+.card button{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: green;
+    border: none;
+    color: white;
+}
+.card button:hover{
+    background-color: rgb(107, 27, 235);
+    color: white;
+}
+.row1{
+    padding: 2%;
+    display: flex;
+}
+.row2{
+    padding: 2%;
+    display: flex;
+}
+.app{
+    margin-top: 100px;
+   
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.form h2{
+    font-size: 3rem;
+}
+.form{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+    background-color: aqua;
+    
+    
+    width:500px;
+    height: fit-content;
+    
+    border-radius: 15px;
+}
+.form input{
+    margin:10px;
+    height: 40px;
+    border-radius: 10px;
+}
+.field{
+    display: flex;
+}
+#doc{
+    background-color: red;
+    margin: 1px;
+}
+td{
+    margin: 1px !important;
+}
